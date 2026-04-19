@@ -26,11 +26,11 @@
     <div class="sticky-wrapper">
       <div class="scene-column">
         <div class="scene-container">
-          <img id="bear-plain" src="/images/polar_bear_plain.png" class="bear-img" alt="Polar bear" />
-          <img id="bear-shake" src="/images/polar_bear_shake.png" class="bear-img" alt="Polar bear shaking" />
+          <img id="bear-plain" src="images/polar_bear_plain.png" class="bear-img" alt="Polar bear" />
+          <img id="bear-shake" src="images/polar_bear_shake.png" class="bear-img" alt="Polar bear shaking" />
           <div id="water-fill" class="water-fill"></div>
           <div id="water-wrapper" class="water-wrapper">
-            <img id="water-img" src="/images/water.png" class="water-img" alt="" />
+            <img id="water-img" src="images/water.png" class="water-img" alt="" />
           </div>
         </div>
       </div>
@@ -45,7 +45,7 @@
   </section>
 
   <section class="pivot">
-    <img class="pivot-bear" src="/images/polar_bear_sitting.png" alt="Polar bear sitting" />
+    <img class="pivot-bear" src="images/polar_bear_sitting.png" alt="Polar bear sitting" />
     <div class="pivot-inner">
       <p class="pivot-lead">Humans do too.</p>
       <p class="pivot-body">

@@ -26,10 +26,10 @@ jobs:
 
       - name: Prepare site
         run: |
-          mkdir -p dist/images
+          mkdir -p dist
           cp src/App.svelte dist/index.html
           cp src/app.css dist/app.css
-          cp public/images/* dist/images/
+          cp -r public/images dist/images
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
