@@ -15,7 +15,7 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Inter Tight', system-ui, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
 }
@@ -64,9 +64,9 @@ h1 em {
 }
 
 .byline {
-  font-family: 'Fraunces', serif;
+  font-family: 'Assistant', serif;
   font-style: italic;
-  font-size: 1.15rem;
+  font-size: 2rem;
   color: var(--ink-soft);
   margin: 0;
   font-weight: 300;
@@ -200,8 +200,8 @@ h1 em {
 .step.active { opacity: 1; }
 
 .step p {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
+  font-family: 'Assistant', serif;
+  font-weight: 400;
   font-size: clamp(1.4rem, 2.6vw, 2rem);
   line-height: 1.35;
   letter-spacing: -0.01em;
@@ -249,9 +249,9 @@ h1 em {
 }
 
 .pivot-body {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
-  font-size: 1.3rem;
+  font-family: 'Assistant', serif;
+  font-weight: 400;
+  font-size: 1.5rem;
   line-height: 1.55;
   color: var(--ink);
   margin: 0 0 1.25rem;
@@ -269,19 +269,20 @@ h1 em {
   margin: 0 auto;
 }
 
-h2 {
-  font-family: 'Fraunces', serif;
-  font-weight: 400;
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
-  line-height: 1.1;
+h2  {
+  font-family: 'Assistant', serif;
+  font-weight: 600;
+  font-size: clamp(2.5rem, 6vw, 4.25rem);
+  line-height: 1.05;
   letter-spacing: -0.02em;
-  margin: 0 0 1.75rem;
+  color: var(--accent);
+  margin: 0 0 2.5rem;
 }
 
 .next-body {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
-  font-size: 1.15rem;
+  font-family: 'Assistant', serif;
+  font-weight: 400;
+  font-size: 1.25rem;
   line-height: 1.65;
   color: var(--ink-soft);
   margin: 0 0 2.5rem;
@@ -373,7 +374,7 @@ h2 {
 }
 
 .tl-year {
-  font-family: 'Fraunces', serif;
+  font-family: 'Assistant', serif;
   font-weight: 600;
   font-size: 1.1rem;
   color: var(--accent);
@@ -381,7 +382,7 @@ h2 {
 }
 
 .tl-month {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Assistant', serif;
   font-size: 0.7rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -392,7 +393,7 @@ h2 {
 .timeline-content { min-width: 0; }
 
 .tl-tag {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Assistant', serif;
   font-size: 0.68rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -402,8 +403,8 @@ h2 {
 }
 
 .tl-title {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
+  font-family: 'Assistant', serif;
+  font-weight: 350;
   font-size: clamp(1.2rem, 2.2vw, 1.6rem);
   line-height: 1.25;
   letter-spacing: -0.01em;
@@ -412,7 +413,7 @@ h2 {
 }
 
 .tl-stat {
-  font-family: 'Fraunces', serif;
+  font-family: 'Assistant', serif;
   font-weight: 600;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
@@ -431,8 +432,8 @@ h2 {
 }
 
 .tl-body {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
+  font-family: 'Assistant', serif;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.65;
   color: var(--ink-soft);
