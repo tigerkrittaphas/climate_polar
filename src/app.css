@@ -37,7 +37,7 @@ main { min-height: 100vh; }
 }
 
 .eyebrow {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Assistant', serif;
   font-size: 0.72rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
@@ -47,13 +47,14 @@ main { min-height: 100vh; }
 }
 
 h1 {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
+  font-family: 'Assistant', serif;
+  font-weight: 600;
   font-size: clamp(3rem, 7vw, 5.5rem);
   line-height: 1.05;
   letter-spacing: -0.02em;
   margin: 0 0 2rem;
   font-variation-settings: 'opsz' 144;
+  color: var(--accent);
 }
 
 h1 em {
@@ -237,8 +238,8 @@ h1 em {
 .pivot-inner { max-width: 620px; }
 
 .pivot-lead {
-  font-family: 'Fraunces', serif;
-  font-weight: 300;
+  font-family: 'Assistant', serif;
+  font-weight: 600;
   font-style: italic;
   font-size: clamp(2.5rem, 6vw, 4.25rem);
   line-height: 1.05;

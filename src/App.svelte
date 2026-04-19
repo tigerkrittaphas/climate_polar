@@ -12,7 +12,7 @@
 <body>
 <main>
   <section class="title-card">
-    <h1><em>Climate Vulnerability in Greater Boston</em></h1>
+    <h1>Climate Vulnerability in Greater Boston</h1>
     <p class="byline">Climate change affects us unequally.</p>
     <div class="scroll-hint">
       <span>Scroll</span>
@@ -59,8 +59,9 @@
 
   <section class="timeline-intro">
     <p class="eyebrow">Boston, Massachusetts</p>
-    <h2>This isn't abstract.<br>It's already here.</h2>
+    <h2>Unbearable Truth</h2>
     <p class="next-body">
+      It's already happening. <br> 
       Greater Boston has seen record-breaking floods, storms, and heat in just the past decade.
       Each one a preview of what comes next — and a question of who bears the cost.
     </p>
@@ -155,7 +156,7 @@
     const progress = Math.max(0, Math.min(1, scrolled / total));
 
     // Water rises
-    const waterHeight = 150 + progress * 70;
+    const waterHeight = 100 + progress * 140;
     waterWrapper.style.height = waterHeight + '%';
 
     // Water translates left-right — 3 oscillation cycles during the full scroll
@@ -163,7 +164,7 @@
     waterImg.style.transform = `translateX(${waterX}%)`;
 
     // Bear transition: plain → shake over the last 30% of scroll
-    const bearShaking = progress > 0.3;
+    const bearShaking = progress > 0.6;
     if (bearShaking) {
       bearPlain.style.opacity = 0;
       bearShake.style.opacity = 1;
